@@ -2,6 +2,8 @@ name: GitHub Actions Security Analysis
 
 on:
   pull_request:
+    paths:
+      - '.github/**'
 
 permissions:
   contents: read
